@@ -1,0 +1,23 @@
+[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
+cmds = []
+
+[start]
+cmd = "node index.js"
+```
+
+**Step 5** — Click **"Commit changes"**
+
+**Step 6** — Go back to Railway → it will **auto-redeploy** automatically
+
+---
+
+Also make sure your GitHub repo has exactly these 3 files:
+```
+stockai/
+├── index.js
+├── package.json
+└── public/
+    └── index.html
